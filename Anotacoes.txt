@@ -1,0 +1,5 @@
+#java.util.list
+	-java.util.ArrayList
+	-Garante ordem de inserção
+	-permite adição, atualização, leitura ou remoção sem regras adicionais
+	-permite ordenção através de comparators
