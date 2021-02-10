@@ -22,3 +22,13 @@ index). Para leitura, apenas navegação
 	-LinkedHashSer: mantem a ordem, menos  performático
 	-TreeSet: Pode alterar a ordem através de comparators e matem ordenado, performática
 para leitura, mas quando for modificar tem que reodenar tudo,deixando mais lento que LinkedHashSet
+
+#java.util.Map
+	-java.util.HashMap
+	-java.util.TreeMap
+	-java.util.HashTable, não é muito utilizada
+	-Não herda do collections, não tem ".add(), .size()..."
+	-Entrada de chave e valor
+	-permite valores repetidos, mas não permite repetir a chave
+permite adição, busca por chave ou valor, atualização, remoção e navegação
+	-pode ser ordenado
