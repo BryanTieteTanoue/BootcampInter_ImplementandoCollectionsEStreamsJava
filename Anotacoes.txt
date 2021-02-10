@@ -32,3 +32,12 @@ para leitura, mas quando for modificar tem que reodenar tudo,deixando mais lento
 	-permite valores repetidos, mas não permite repetir a chave
 permite adição, busca por chave ou valor, atualização, remoção e navegação
 	-pode ser ordenado
+
+#Comparator
+	-java.util.Comparable (criauma  regra dentro da classe para comparação)
+	-java.util.Comparator (usar em uma classe de fora, como a controller para comparar )
+	- define uma regra de negócio  objetos
+	-Permitem a padronização de objetos que devem ser comparados
+	-usado muito em Lists
+	-Permite a ordenação de objetos complexos (aluno, pessoa, carro), ou seja,
+criados pelo usuário
