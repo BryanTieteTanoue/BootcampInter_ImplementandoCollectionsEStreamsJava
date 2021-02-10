@@ -3,3 +3,22 @@
 	-Garante ordem de inserção
 	-permite adição, atualização, leitura ou remoção sem regras adicionais
 	-permite ordenção através de comparators
+
+#java.util.LinkedList
+	-Garatne a ordem de inserção
+	-permite adicionar, ler e remover seguindo aas regras da fila
+	-não permite mudança de ordenação (não pode alterar valores de elementos)
+
+#java.util.Set
+	-java.util.HashSet
+	-java.util.TreeSet
+	-java.util.LinkedHashSet
+	-Por padrão não garantem a ordem de inserção. criada para ser performática
+	-não permitem itens repetidos
+	-permite adição e remoção. não possui busca por item e atualização (não tem 
+index). Para leitura, apenas navegação
+	-não permite mudança de ordenação
+	-Hashset: não mantem a ordem, mais performática
+	-LinkedHashSer: mantem a ordem, menos  performático
+	-TreeSet: Pode alterar a ordem através de comparators e matem ordenado, performática
+para leitura, mas quando for modificar tem que reodenar tudo,deixando mais lento que LinkedHashSet
