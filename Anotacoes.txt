@@ -41,3 +41,9 @@ permite adição, busca por chave ou valor, atualização, remoção e navegaç�
 	-usado muito em Lists
 	-Permite a ordenação de objetos complexos (aluno, pessoa, carro), ou seja,
 criados pelo usuário
+
+#Optional
+	-Tratamento para valores que podem ser nulos
+	-Possui 2 estados: vazio e presente
+	-evita o NullPointerException
+	-Os objetos são opcionais
