@@ -47,3 +47,15 @@ criados pelo usuário
 	-Possui 2 estados: vazio e presente
 	-evita o NullPointerException
 	-Os objetos são opcionais
+
+#Stream API
+	-Manipulação de coleçoes com paradgima funcional de forma paralela
+	-útil para grandes quantidades de dados
+	-Não altera a origem
+	-Principais funcionalidades
+		-Mapping: retorna uma coleção do mesmo tamanho, mas alterado 
+		-Filtering: retorna uma coleção igual ou menor, mas os dados estão iguais
+		-FOReACH: FAZ UM ALGORITMOS PARA CADA ELEMENTO, MAS NÃO RETORNA nada
+		-Peek: assim como o foreach, mas retorna uma coleção
+		-Counting: retorna um interio que representa a contagem de elementos
+		-Grouping: retorna uma coleção agrupada de acordo com a regra definida
